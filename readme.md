@@ -14,17 +14,22 @@ GET is generally used for simple forms where security is not a concern.
 Specifying a value of POST means the browser will send the data to the web server to be processed. 
 This is necessary when adding data to a database, or when submitting sensitive information, such as passwords.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-The input element is used to create different form controls. The type attribute for input is where the magic happens. 
+The input HTML element is used to create different form controls in order for us to accept data from the user. The type attribute for input is where the magic happens. 
 
 Changing the type can dramatically alter the input behaviour and appearance. 
 
 Types include : text - that defines a single line input field for example somewhere you might enter your name or a password.
 
-heckbox, buttonS, password, color, number range time/date  - These all affect the input type the user can use.
+The name attribute specifies the name of a form.
+The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is submitted.
+The name attribute is an identifier attribute that’s used for sending data through the HTML form elements.
+Without the name attribute, any value you have in the HTML form element such as <input>, <select>, or <textarea> element will be excluded from the form submission.
 
+Checkbox, buttonS (these can be programmed to control custom functionality e.g. assigned it to an event handler function, buttons can send out data when clicked on ), password, color, number range time/date  - These all affect the input type the user can use.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The label represents a caption and is associated with an item in the user interface. 
 

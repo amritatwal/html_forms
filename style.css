@@ -1,16 +1,19 @@
 :root {
-    font-family: roboto, sans-serif;
+    font-family: courier, sans-serif;
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 80px;
     text-align: center;
     color: rgb(47, 51, 45);
+    text-decoration: underline;
 }
 
 h2 {
     margin-top: 5em;
+    font-size: 30px;
     color: rgb(64, 155, 33);
+    font-weight: 800;
 }
 
 
@@ -20,6 +23,14 @@ h2 {
 }
 
 textarea {
+    background-color: black;
+    color: white;
     margin: 5em;
     padding: 2em;
+    overflow: auto;
+    font-size: 16px;
+}
+
+#output {
+    font-size: 24px;
 }

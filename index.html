@@ -36,8 +36,8 @@
 &lt;form method="get|post" &lt;form&gt;
 
 <h2 class=input> The &lt;input&gt; element: examples </h2>
-<p>Text example:</p>
-<input type="text">
+<p>Text example (with placeholder attribute)</p>
+<input type="text" placeholder="Text goes here">
 <br>
 <p>Radio example:</p>
 <input type="radio" name="Yes"><label for="Yes">Yes</label><br>
@@ -53,14 +53,22 @@
 <input type="submit">	
 <br>
 <p>Button example:</p>
-<input type="button" value="CLICK ME!">
-
+<button>
+  Button
+<!-- <input type="button" value="CLICK ME!"> -->
+</button>
+<p id="example"></p>
 <br>
 <h2 class="label"> The &lt;label&gt; tag </h2>
 &lt;label&gt;&lt;/label&gt;
 
 <br>
-<textarea>
+
+<br>
+<br>
+<br>
+<p>Example code:</p>
+<textarea rows="15" cols="100">
 
   <form>
     <input type="radio" id="html" name="fav_language" value="HTML">
@@ -73,7 +81,8 @@
   </form>
 </textarea>
 
-<form>
+<form id="output">
+    <p><strong>Expected output:</strong></p>
     <input type="radio" id="html" name="fav_language" value="HTML">
     <label for="html">HTML</label><br>
     <input type="radio" id="css" name="fav_language" value="CSS">
@@ -82,7 +91,6 @@
     <label for="javascript">JavaScript</label><br><br>
     <input type="submit" value="Submit">
   </form>
-  
-
+<script src="main.js"></script>
 </body>
 </html>
