@@ -7,3 +7,12 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin-top: 5em;
+}
+
+
+.input > input {
+    margin: 5em;
+    padding: 5em;
+}
